@@ -1,0 +1,7 @@
+# Commands to start on workspace startup
+tasks:
+  - name: install
+    init: |
+      bash ./install.sh
+    command: |
+      fsociety
